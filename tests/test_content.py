@@ -1,4 +1,4 @@
-import copy
+import datetime as dt
 import importlib.util
 import unittest
 from pathlib import Path
@@ -11,6 +11,9 @@ class PublicationGate(unittest.TestCase):
         self.items=build.load('items.json')
         self.groups=build.load('groups.json')
         self.sources=build.load('sources.json')
+    def test_verification_date_uses_malaysia_day(self):
+        utc = dt.datetime(2026,10,14,18,0,tzinfo=dt.timezone.utc)
+        self.assertEqual(build.malaysia_today(utc), dt.date(2026,10,15))
     def test_curated_seed_passes(self):
         self.assertTrue(build.validate(self.items,self.groups,self.sources))
     def test_unsourced_content_rejected(self):
