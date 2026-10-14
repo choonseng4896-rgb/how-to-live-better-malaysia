@@ -1,0 +1,23 @@
+name: 纠错 / 过期资料 / Report an error
+description: 用新资料纠正错误或过时规则
+title: "[纠错] "
+body:
+  - type: textarea
+    id: location
+    attributes:
+      label: 条目编号、网页或文件位置
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: 哪里有错，应该如何修改？
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 新来源、支持位置、日期与范围
+      description: 暂时找不到来源也可报错，请如实说明；维护者再核验。
+    validations:
+      required: true

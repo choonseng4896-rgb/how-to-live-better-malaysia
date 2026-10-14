@@ -1,0 +1,32 @@
+name: 提供内容与来源 / Suggest content
+description: 分享可核验的马来西亚生活资料（中文 / BM / English）
+title: "[资料] "
+labels: []
+body:
+  - type: textarea
+    id: fact
+    attributes:
+      label: 想补充的事实 / Maklumat / Claim
+      description: 一次投稿请集中一个主题。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 直接来源、标题与支持段落 / Source
+      description: 请提供 HTTPS 链接、机构、支持位置；说明你是否实际读过正文。
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: 州属、身份、日期与局限 / Scope and date
+      description: 涉及价格请注明 RM、单位、税费和样本；经验请明确标识。
+    validations:
+      required: true
+  - type: textarea
+    id: uncertainty
+    attributes:
+      label: 不确定部分、AI 使用与商业关系 / Disclosure
+    validations:
+      required: true
