@@ -1,0 +1,50 @@
+[
+  {
+    "key": "money",
+    "number": "01",
+    "headline": "把钱花在值得的地方",
+    "title": "预算与储蓄"
+  },
+  {
+    "key": "food",
+    "number": "02",
+    "headline": "吃得满足，也吃得明白",
+    "title": "饮食与采购"
+  },
+  {
+    "key": "transport",
+    "number": "03",
+    "headline": "把通勤成本算完整",
+    "title": "交通与出行"
+  },
+  {
+    "key": "home",
+    "number": "04",
+    "headline": "让住处成为充电的地方",
+    "title": "租房与居家"
+  },
+  {
+    "key": "health",
+    "number": "05",
+    "headline": "把健康入口提前找好",
+    "title": "健康与就医"
+  },
+  {
+    "key": "work",
+    "number": "06",
+    "headline": "让能力跟得上你的野心",
+    "title": "工作与成长"
+  },
+  {
+    "key": "digital",
+    "number": "07",
+    "headline": "省下注意力，守住账户",
+    "title": "数字生活"
+  },
+  {
+    "key": "life",
+    "number": "08",
+    "headline": "好生活也需要一点留白",
+    "title": "关系与日常"
+  }
+]

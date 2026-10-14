@@ -1,0 +1,82 @@
+{
+  "epf": {
+    "publisher": "EPF",
+    "title": "Belanjawanku 2024/2025 发布说明",
+    "url": "https://www.kwsp.gov.my/en/w/epf-releases-belanjawanku-2024/2025-and-retirement-income-adequacy-framework",
+    "published_or_updated": "2024-12-12",
+    "checked_at": "2026-10-15",
+    "access": "正文已读取",
+    "locator": "Since 2019 / Belanjawanku Guide",
+    "limitations": "历史版本 2024/2025；不得称为 2026 实时生活费。"
+  },
+  "pidm": {
+    "publisher": "PIDM",
+    "title": "Deposit Insurance System FAQ",
+    "url": "https://www.pidm.gov.my/general/faqs/deposit-insurance-system",
+    "published_or_updated": null,
+    "checked_at": "2026-10-15",
+    "access": "正文已读取",
+    "locator": "FAQs: limit / application / products / branches",
+    "limitations": "会员银行合资格存款；不同账户类别可能有独立规则。"
+  },
+  "rapid": {
+    "publisher": "TNG Digital",
+    "title": "Travel Pass: Buy & renew My50 online",
+    "url": "https://www.tngdigital.com.my/gotravel/travel-pass/",
+    "published_or_updated": null,
+    "checked_at": "2026-10-15",
+    "access": "正文已读取",
+    "locator": "My50 price / eligibility / valid services",
+    "limitations": "服务提供方产品页；巴生谷 Rapid KL；不是全国所有交通。"
+  },
+  "health": {
+    "publisher": "MySejahtera",
+    "title": "Where can I find a list of Health Clinics / Dental Clinics that accept appointment bookings?",
+    "url": "https://helpdesk.mysejahtera.malaysia.gov.my/en/support/solutions/articles/51000318779-where-can-i-find-a-list-of-health-clinics-dental-clinics-that-accept-appointment-bookings-",
+    "published_or_updated": "2024-07-10",
+    "checked_at": "2026-10-15",
+    "access": "正文已读取",
+    "locator": "Through the MySejahtera application, steps i–ii",
+    "limitations": "预约入口说明；不证明所有诊所均有名额或服务免费。"
+  },
+  "diet": {
+    "publisher": "WHO",
+    "title": "Healthy diet",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+    "published_or_updated": "2026-01-26",
+    "checked_at": "2026-10-15",
+    "access": "正文已读取",
+    "locator": "WHO guidance: Sugars / Salt,sodium and potassium",
+    "limitations": "国际一般营养建议；不是特定疾病的个体处方。"
+  },
+  "activity": {
+    "publisher": "WHO",
+    "title": "Physical activity",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+    "published_or_updated": "2024-06-26",
+    "checked_at": "2026-10-15",
+    "access": "正文已读取",
+    "locator": "How much physical activity is recommended?",
+    "limitations": "一般公共卫生建议；身体限制或疾病需个体评估。"
+  },
+  "bnm-verify": {
+    "publisher": "Bank Negara Malaysia",
+    "title": "Deepfakes and Impersonations",
+    "url": "https://www.bnm.gov.my/verify",
+    "published_or_updated": null,
+    "checked_at": "2026-10-15",
+    "access": "正文已读取",
+    "locator": "Investment scams / Received a BNM letter in the email?",
+    "limitations": "针对冒充 BNM 的骗局；官方页面未提供统一更新时间。"
+  },
+  "bnm-app": {
+    "publisher": "Bank Negara Malaysia",
+    "title": "Mobile Application Scam",
+    "url": "https://www.bnm.gov.my/smsscam",
+    "published_or_updated": null,
+    "checked_at": "2026-10-15",
+    "access": "正文已读取",
+    "locator": "How to protect yourself?",
+    "limitations": "针对可疑第三方应用及短信链接；不保证官方应用商店绝对安全。"
+  }
+}
