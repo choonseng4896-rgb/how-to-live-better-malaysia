@@ -47,7 +47,7 @@ python3 scripts/build.py --check
 python3 -m unittest discover -s tests
 ```
 
-需要 Python 3.9 或以上。页面支持搜索、地区筛选、收藏、明暗主题、打印和 RM 预算计算。收藏在本机浏览器保存；预算仅在页面计算。
+需要 Python 3.9 或以上。页面支持搜索、地区筛选、收藏、明暗主题和打印。收藏在本机浏览器保存。
 
 ```text
 content/       正式正文、来源注册表与章节
