@@ -47,7 +47,7 @@ python3 scripts/build.py --check
 python3 -m unittest discover -s tests
 ```
 
-需要 Python 3.9 或以上。页面支持搜索、地区筛选、收藏、明暗主题和打印。收藏在本机浏览器保存。
+需要 Python 3.9 或以上。页面支持关键词搜索、收藏、明暗主题和打印。收藏在本机浏览器保存。
 
 ```text
 content/       正式正文、来源注册表与章节
@@ -58,6 +58,14 @@ drafts/       待补证据草稿，不进入网页
 tests/        来源门槛与安全输出测试
 .github/      投稿、纠错、PR 模板与自动检查 / Pages 发布
 ```
+
+## 搜索与 SEO
+
+正文在构建时写入 HTML，无 JavaScript 时仍可阅读。搜索支持常用中英马关键词、多词匹配、高亮、快捷词及可分享查询链接；这不代表完整多语言翻译。页底资料清单默认折叠，每条内容的来源记录保留。
+
+页面有 canonical、分享元数据、CollectionPage / ItemList 结构化数据与 sitemap.xml；搜索结果页共用主页 canonical。Search Console 提交及搜索排名需上线后单独观察，不保证收录或流量。
+
+参见 [待审核报告](docs/review-report.md) 与 [公众参与试运行方案](docs/community-plan.md)。
 
 ## 一起补齐马来西亚
 
