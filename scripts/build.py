@@ -19,6 +19,10 @@ def require(test, message):
 def date(value):
     return dt.date.fromisoformat(value)
 
+def malaysia_today(instant=None):
+    instant = instant or dt.datetime.now(dt.timezone.utc)
+    return instant.astimezone(dt.timezone(dt.timedelta(hours=8))).date()
+
 def validate(items, groups, sources):
     require(isinstance(items, list) and items, 'items must be a nonempty list')
     keys = {g['key'] for g in groups}
@@ -30,7 +34,7 @@ def validate(items, groups, sources):
         url = urlparse(source['url'])
         require(url.scheme == 'https' and url.hostname and not url.username and not url.password, f'{key}: HTTPS source required')
         require(source['access'] == '正文已读取', f'{key}: source body must be read before inclusion')
-        require(date(source['checked_at']) <= dt.date.today(), f'{key}: future check date')
+        require(date(source['checked_at']) <= malaysia_today(), f'{key}: future check date')
         if source.get('published_or_updated'):
             date(source['published_or_updated'])
     for item in items:
@@ -41,7 +45,7 @@ def validate(items, groups, sources):
         require(item.get('status') == 'sourced', f'{item["id"]}: drafts cannot be published')
         for field in ['title','body','action','action_type','cost','region','period','claim_locator','scope','review_status']:
             require(isinstance(item.get(field),str) and item[field].strip(), f'{item["id"]}: missing {field}')
-        require(date(item['last_verified']) <= dt.date.today(), 'future verification date')
+        require(date(item['last_verified']) <= malaysia_today(), 'future verification date')
         require(date(item['review_after']) >= date(item['last_verified']), 'review date before verification')
         require(item['last_verified'] == sources[item['source']]['checked_at'], 'source/item verification dates disagree')
     return True
